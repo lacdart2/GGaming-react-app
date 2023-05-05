@@ -2,7 +2,7 @@
   "name": "cyborg-website",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://<lacdart2>.github.com/<GGaming-react-app>",
+  "homepage":"https://github.com/lacdart2/GGaming-react-app/",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.0",
     "@testing-library/jest-dom": "^5.16.5",
