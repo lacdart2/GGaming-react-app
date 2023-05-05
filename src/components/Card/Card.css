@@ -1,0 +1,53 @@
+.most-popular-item {
+          flex: 1 25%;
+}
+.card-wrapper {
+          background-color: var(--color-darker);
+          border-radius: calc(var(--border-radius-primary) / 2);
+          padding: calc(var(--padding-primary));
+          margin: calc(var(--margin-primary) / 5);
+}
+.most-popular-item-image {
+          width: 100%;
+          object-fit: cover;
+          border-radius: calc(var(--border-radius-primary) / 4);
+          margin-bottom: calc(var(--margin-primary) / 2);
+          min-height: 200px;
+}
+
+.most-popular-item-content {
+          display: flex;
+          justify-content: space-between;
+          font-family: "Poppins", sans-serif;
+}
+.most-popular-item-content ul {
+          display: flex;
+          flex-direction: column;
+}
+.most-popular-item-content ul li {
+          font-size: 12px;
+          margin-bottom: 6px;
+          font-family: "Roboto Slab", serif;
+}
+
+.most-popular-item-row {
+          display: flex;
+          flex-direction: column;
+}
+.most-popular-item-row span {
+          font-size: 12px;
+}
+.most-popular-item-title {
+          font-size: 14px;
+}
+.most-popular-item-title span {
+          font-size: 12px;
+}
+.star,
+.download {
+          display: -block;
+          color: var(--color-accent);
+          vertical-align: baseline;
+
+          font-size: 12px;
+}

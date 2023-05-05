@@ -1,0 +1,61 @@
+.hero-main {
+          color: var(--color-light);
+          padding: var(--padding-primary);
+
+          border-radius: calc(var(--padding-primary) / 2);
+          /*  background-image: url(../assets/images/3d-rendering-biorobots-concept.jpg); */
+          background-color: var(--color-accent);
+          background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                    url(../../assets/images/3d-rendering-biorobots-concept.jpg)
+                              no-repeat;
+          background-position: center;
+          background-size: cover;
+}
+.hero-text {
+          max-width: 500px;
+}
+.hero-subtitle {
+          font-size: 20px;
+          color: var(--color-light);
+          font-weight: 400;
+          margin-bottom: calc(var(--padding-primary) / 2);
+          font-family: "Roboto Slab", serif;
+}
+.hero-title {
+          font-size: 60px;
+          font-family: "Poppins", sans-serif;
+          text-transform: uppercase;
+          margin-bottom: calc(var(--padding-primary) / 2);
+          font-weight: var(--font-weight-normal);
+}
+.hero-title em {
+          font-style: normal;
+          color: var(--color-accent);
+          font-weight: var(--font-weight-bold);
+}
+.main-button a {
+          font-family: "Roboto Slab", serif;
+          text-decoration: none;
+          color: var(--color-light);
+          padding: 0.8rem 1.2rem 0.8rem 0;
+          border-bottom: 2px solid var(--color-accent);
+          transition: 0.5s;
+}
+.fa-arrow-right {
+          color: var(--color-accent);
+          vertical-align: middle;
+          font-size: 30px;
+          margin-left: 0px;
+          transition: 0.5s ease-in;
+}
+.main-button a:hover {
+          color: var(--color-accent);
+          transition: 0.5s;
+}
+
+.main-button:hover .fa-arrow-right {
+          transform: translateX(15px);
+}
+.main-button:hover a {
+          border-bottom: none;
+}
